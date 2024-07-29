@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assests/libraries/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./assests/libraries/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assests/libraries/bootstrap/css/bootstrap.min.css.map">
+    <link rel="stylesheet" href="assests/libraries/animate.css/animate.min.css">
+    <link rel="stylesheet" href="./assests/style/style.css"> 
+    <title>Point of Sale App</title>
+</head>
+<body>
+    <section class="h-100 py-3 ">
+        <div class="container h-100">
+            <div id="overlay-container" class=""></div>
+            <div class="section-container border border-4 border-dark rounded row h-100">
+                <div id="overlay" class=""></div>
+                <aside class="col-lg-3 border-end aside p-3" >
+                    <header class="d-flex gap-3 pt-3 header mb-3 ">
+                        <i class="fa-solid fa-utensils logo-icon"></i>
+                        <h3>Smart<span class="logo-span">POS</span></h3>
+                    </header>
+                    <div class="lists__aside-box">
+                        <ul class="d-flex gap-1 flex-column">
+                            <div class="list-item d-flex gap-3">
+                                <i class="fa-solid fa-table-columns list-icon"></i>
+                                <li><a href="#">Dashboard</a></li>
+                            </div>
+                            <div class="list-item d-flex gap-3">                            
+                                <i class="fa-solid fa-burger list-icon"></i>
+                                <li><a href="#">Food & Drinks</a></li>
+                            </div>
+                            <div class="list-item d-flex gap-3">    
+                                <i class="fa-solid fa-message list-icon"></i>
+                                <li><a href="#">Messages</a></li>                        
+                            </div>
+                            <div class="list-item d-flex gap-3">  
+                                <i class="fa-solid fa-file-invoice-dollar list-icon"></i>
+                                <li><a href="#">Bills</a></li>                          
+                            </div>
+                            <div class="list-item d-flex gap-3">  
+                                <i class="fa-solid fa-gear list-icon"></i>
+                                <li><a href="#">Settings</a></li>                          
+                            </div>
+                        </ul>
+                        <ul class="d-flex flex-column gap-1">
+                            <h4 class="mt-1 mb-0">Others</h4>
+                            <div class="list-item d-flex gap-3"> 
+                                <i class="fa-regular fa-bell list-icon"></i>
+                                <li><a href="#">Notification</a></li>                           
+                            </div>
+                            <div class="list-item d-flex gap-3">  
+                                <i class="fa-solid fa-square-phone list-icon"></i>
+                                <li><a href="#">Support</a></li>                          
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="costumer-desc-box d-flex flex-column gap-1 text-center">
+                        <div class="costumer-desc rounded-bottom d-flex flex-column gap-1 align-items-center">
+                            <img class="costumer-img rounded-circle" src="./assests/images/back-ground-final.png" alt="Costumer image">
+                            <h6 class="m-0">Ibrahim Sarhan</h6>
+                            <p class="m-0">Waiter . 4h 56m</p>
+                            <button class="costumer-profile-btn w-100">Open profile</button>
+                        </div>
+                        <p class="m-0">&copy; 2024 Smart POS</p>
+                    </div>
+                </aside>
+
+                <div class="products-box col-lg-9 h-100 p-4 ">
+                    <div class="d-flex justify-content-between">
+                        <div class="nav-categorize d-flex gap-3 justify-content-start align-items-center">
+                            <i class="fa-solid fa-arrow-left-long icon"></i>
+                            <span>Food & Drinks</span>
+                            <span><i class="fa-solid fa-greater-than"></i></span>
+                            <span>Burgers</span>
+                        </div>
+                        <div class="search-input-box">
+                            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                            <input class="search-input" type="search" placeholder="search">
+                        </div>
+                    </div>
+                    <div class="products-header d-flex gap-2 align-items-center mt-4">
+                        <h4 class="m-0">Burgers</h4>
+                        <img class="juicy-burgers" src="./assests/images/juicyburgers.png" alt="juicy burgers">
+                    </div>
+                    <div class="card-row-1 mt-3 d-flex flex-wrap flex-lg-nowrap justify-content-center gap-3">
+                        <div class="card d-flex flex-column align-items-center">
+                            <img src="./assests/images/juicyburgers.png" class="card-img-top" alt="juicy burger">
+                            <div class="card-body d-flex flex-column align-items-center">
+                              <h5 class="card-title">Juicy Burger</h5>
+                              <p class="card-text">240 <sub>g</sub></p>
+                              <p class="card-text price">$3.50</p>
+                            </div>
+                          </div>
+                          <div class="card d-flex flex-column align-items-center">
+                            <img src="./assests/images/juicyburgers.png" class="card-img-top" alt="juicy burger">
+                            <div class="card-body d-flex flex-column align-items-center">
+                              <h5 class="card-title">Juicy Burger</h5>
+                              <p class="card-text">240 <sub>g</sub></p>
+                              <p class="card-text price">$3.50</p>
+                            </div>
+                          </div>
+                          <div class="card d-flex flex-column align-items-center">
+                            <img src="./assests/images/juicyburgers.png" class="card-img-top" alt="juicy burger">
+                            <div class="card-body d-flex flex-column align-items-center">
+                              <h5 class="card-title">Juicy Burger</h5>
+                              <p class="card-text">240 <sub>g</sub></p>
+                              <p class="card-text price">$3.50</p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="card-row-2 mt-3 d-flex flex-wrap flex-lg-nowrap justify-content-center gap-3">
+                        <div class="card d-flex flex-column align-items-center">
+                            <img src="./assests/images/juicyburgers.png" class="card-img-top" alt="juicy burger">
+                            <div class="card-body d-flex flex-column align-items-center">
+                              <h5 class="card-title">Juicy Burger</h5>
+                              <p class="card-text">240 <sub>g</sub></p>
+                              <p class="card-text price">$3.50</p>
+                            </div>
+                          </div>
+                          <div class="card d-flex flex-column align-items-center">
+                            <img src="./assests/images/juicyburgers.png" class="card-img-top" alt="juicy burger">
+                            <div class="card-body d-flex flex-column align-items-center">
+                              <h5 class="card-title">Juicy Burger</h5>
+                              <p class="card-text">240 <sub>g</sub></p>
+                              <p class="card-text price">$3.50</p>
+                            </div>
+                          </div>
+                          <div class="card d-flex flex-column align-items-center">
+                            <img src="./assests/images/juicyburgers.png" class="card-img-top" alt="juicy burger">
+                            <div class="card-body d-flex flex-column align-items-center">
+                              <h5 class="card-title">Juicy Burger</h5>
+                              <p class="card-text">240 <sub>g</sub></p>
+                              <p class="card-text price">$3.50</p>
+                            </div>
+                          </div>
+                    </div>
+                    <div id="side-menu" class="side-menu">                         
+                        <div class="card menu-card d-flex flex-column align-items-center w-100">
+                            <img src="./assests/images/juicyburgers.png" class="card-img-top" alt="juicy burger">
+                            <div class="card-body d-flex flex-column align-items-center">
+                            <h5 class="card-title">Juicy Burger</h5>
+                            <p class="card-text">240 <sub>g</sub></p>
+                            <p class="card-text price">$3.50</p>
+                            </div>
+                        </div>
+                        <div class="product-order p-4 d-flex flex-column gap-3">
+                            <div class="addons d-flex justify-content-between">
+                                <div class="addons-item d-flex gap-3 align-items-center ">
+                                    <img src="./assests/images/pngwing.com.png" alt="">
+                                    <span>Shredded Lettuce</span>
+                                </div>
+                                <div class="addons-buttons d-flex gap-3">
+                                    <button class="btn-decrease">-</button>
+                                    <span id="count-addons">0</span>
+                                    <button  class="btn-increase">+</button>
+                                </div>
+                            </div>
+                            <div class="addons d-flex justify-content-between">
+                                <div class="addons-item d-flex gap-3 align-items-center">
+                                    <img src="./assests/images/pngwing.com (4).png" alt="">
+                                    <span>Cheese</span>
+                                </div>
+                                <div class="addons-buttons d-flex gap-3">
+                                    <button class="btn-decrease">-</button>
+                                    <span id="count-addons">0</span>
+                                    <button class="btn-increase">+</button>
+                                </div>
+                            </div>
+                            <div class="addons d-flex justify-content-between">
+                                <div class="addons-item d-flex gap-3 align-items-center">
+                                    <img src="./assests/images/pngwing.com (1).png" alt="">
+                                    <span>Pickle Slices</span>
+                                </div>
+                                <div class="addons-buttons d-flex gap-3">
+                                    <button class="btn-decrease">-</button>
+                                    <span id="count-addons">0</span>
+                                    <button class="btn-increase">+</button>
+                                </div>
+                            </div>                            
+                            <button onclick="getOrder()" class="order-btn w-100 mt-5">Add to Order</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./assests/libraries/sweetalert2.all.min.js"></script>
+    <script src="./assests/libraries/fontawesome/js/all.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.bundle.min.js.map"></script>
+    <script src="./assests/main.js"></script>
+</body>
+</html>
